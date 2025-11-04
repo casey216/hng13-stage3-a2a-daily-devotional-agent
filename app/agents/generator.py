@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-token = "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"
+token = os.getenv("AI_TOKEN")
 endpoint = "https://models.github.ai/inference"
 model = "openai/gpt-4.1"
 
